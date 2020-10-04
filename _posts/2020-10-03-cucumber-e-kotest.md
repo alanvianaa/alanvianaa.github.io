@@ -4,7 +4,8 @@ author: Alan Viana
 date: 2020-10-03 20:19:00 -0300
 categories: [programacao, testes]
 tags: [kotlin, cucumber]
-toc: false
+toc: true
+comments: true
 ---
 This repository is an example of how the cucumber framework works with kotest in kotlin
 

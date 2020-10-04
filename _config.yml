@@ -123,7 +123,7 @@ defaults:
     scope:
       path: _drafts
     values:
-      comments: false
+      comments: true
   -
     scope:
       path: tags
