@@ -25,9 +25,10 @@ jobs:
         os: [ubuntu-latest, macos-latest]
 
     steps:
-      - uses: actions/setup-ruby@v1
+      - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '2.6.x'
+          ruby-version: '3.3'
+          bundler-cache: true
 
       - name: Install tools (for Ubuntu)
         if: matrix.os == 'ubuntu-latest'
